@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="flower-gitlab" fetch="https://gitlab.com/" />
+
+  <project name="xiaomi-mars-devs/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" revision="lineage-21" />
+  <project name="xiaomi-mars-devs/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" revision="lineage-21" />
+  <project name="xiaomi-mars-devs/android_device_xiaomi_mars" path="device/xiaomi/mars" revision="lineage-21" />
+
+  <project name="TheMuppets/proprietary_vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" revision="lineage-20" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi_mars" path="vendor/xiaomi/mars" revision="lineage-20" />
+
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" />
+
+  <project name="flowersea0208/vendor_firmware" path="vendor/firmware" revision="lineage-20" remote="flower-gitlab"/>
 </manifest>
