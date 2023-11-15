@@ -92,7 +92,7 @@ repopickchain 368693 # DownloadProvider: Add support for manual pause/resume
 repopickchain 368707 # Telephony: Add ERI configuration for U.S. Cellular
 
 # system/core
-repopickchain 370777 # Removing duplicate CollectImages()
+repopickchain 368731 # fs_mgr: Allow remounts with Magisk installed
 
 # system/extras
 repopickchain 368734 # partition_tools: Add lpunpack_static target
